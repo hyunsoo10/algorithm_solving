@@ -46,6 +46,5 @@ public class BAEKJOON_1592 {
 		System.out.println(answer);
 
 		sc.close();
-
 	}
 }
