@@ -17,12 +17,12 @@
 ```bash
 < algorithm_solving >
 	1. 01_구현 #01_알고리즘 이름
-        사이트이름_문제번호.java
+    사이트이름_문제번호.java
 		SWEA_1859.java			
 		
 
-    2. 02_DP
-		BAEK_1111.java	
+  2. 02_DP
+		BAEKJOON_1111.java	
 		
  
  ```
