@@ -16,13 +16,24 @@
 
 ```bash
 < algorithm_solving >
-	1. 01_구현 #01_알고리즘 이름
-    사이트이름_문제번호.java
-		SWEA_1859.java			
+00_ALL 
+    (사이트이름_문제번호.java)
+	SWEA_1859.java			
+    BAEKJOON_0001.java
 		
 
-  2. 02_DP
-		BAEKJOON_1111.java	
+01_구현
+    BAEKJOON_1111.java	
+    BAEKJOON_0000.java
+
+
+02_수학
+    BAEKJOON_0002.java
+    BAEKJOON_0003.java
+
+
+03_완전탐색
+    SWEA_0001.java
 		
  
  ```
