@@ -1,8 +1,10 @@
+package SWEA_5658_보물상자_비밀번호;
+
 import java.util.Collections;
 import java.util.Scanner;
 import java.util.TreeSet;
 
-public class SWEA_5658 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
