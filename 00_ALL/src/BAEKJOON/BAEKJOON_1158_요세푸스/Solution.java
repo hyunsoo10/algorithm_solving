@@ -1,9 +1,11 @@
+package BAEKJOON.BAEKJOON_1158_요세푸스;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class BAEKJOON_1158 {
+public class Solution {
 	
 	public static void main(String[] args) {
 

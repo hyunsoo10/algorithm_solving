@@ -1,6 +1,8 @@
+package BAEKJOON.BAEKJOON_2851_슈퍼_마리오;
+
 import java.util.Scanner;
 
-public class BAEKJOON_2851 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[] arr = new int[10];

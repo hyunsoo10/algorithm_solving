@@ -1,6 +1,8 @@
+package BAEKJOON.BAEKJOON_1592_영식이와_친구들;
+
 import java.util.Scanner;
 
-public class BAEKJOON_1592 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

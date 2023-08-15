@@ -1,11 +1,11 @@
+package SWEA.SWEA_1954_달팽이숫자;
+
 import java.util.Scanner;
 import java.io.FileInputStream;
 
 
-class BAEKJOON_1954 {
+class Solution {
 	public static void main(String args[]) throws Exception {
-
-		System.setIn(new FileInputStream("/swea_1954.txt"));
 
 		Scanner sc = new Scanner(System.in);
 		int T;
