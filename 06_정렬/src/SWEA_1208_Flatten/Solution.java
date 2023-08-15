@@ -1,6 +1,8 @@
+package SWEA_1208_Flatten;
+
 import java.util.Scanner;
 
-public class SWEA_1208 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

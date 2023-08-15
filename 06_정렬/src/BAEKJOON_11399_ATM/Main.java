@@ -1,6 +1,8 @@
+package BAEKJOON_11399_ATM;
+
 import java.util.Scanner;
 
-public class BAEKJOON_11399 {
+public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -10,13 +12,13 @@ public class BAEKJOON_11399 {
 			arr[i] = sc.nextInt();
 		}
 		
-		//arr¸¦ ¿À¸§Â÷¼øÀ¸·Î Á¤·Ä
-		//insertion Á¤·ÄÀ» ½áº¸ÀÚ
+		//arrï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		//insertion ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½áº¸ï¿½ï¿½
 		
 		for(int i = 1; i<arr.length; i++) {
-			//ÇöÀç ºñ±³°ª°ú ±× ÀÎÀüÀÇ °ªµéÀ» ¸ðµÎ ºñ±³ÇØ¼­ À§Ä¡ ¼±Á¤
+			//ï¿½ï¿½ï¿½ï¿½ ï¿½ñ±³°ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½
 			for(int j = i; j>0; j--) {
-				//ÀÚ½Å º¸´Ù ÀÛÀº °ªÀÌ ÀÖ´Ù¸é °è¼Ó ±³È¯
+				//ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Ù¸ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
 				if(arr[j-1] > arr[j]) {
 					int tmp = arr[j-1];
 					arr[j-1] = arr[j];
