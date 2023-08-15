@@ -3,7 +3,7 @@ package BAEKJOON_1244_스위치;
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class Main {
 
 //	public static int changeNum(int a) {
 //		if (a == 1) {

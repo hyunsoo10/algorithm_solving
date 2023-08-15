@@ -1,4 +1,4 @@
-package SWEA.SWEA_1954_달팽이숫자;
+package SWEA_1954_달팽이숫자;
 
 import java.util.Scanner;
 import java.io.FileInputStream;

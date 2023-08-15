@@ -1,8 +1,8 @@
-package BAEKJOON.BAEKJOON_2309_일곱_난쟁이;
+package BAEKJOON_2309_일곱_난쟁이;
 
 import java.util.Scanner;
 
-public class Solution {
+public class Main {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
