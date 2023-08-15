@@ -1,6 +1,8 @@
+package BAEKJOON_2563_색종이;
+
 import java.util.Scanner;
 
-public class BAEKJOON_2563 {
+public class Solution {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

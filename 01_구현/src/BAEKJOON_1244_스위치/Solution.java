@@ -1,7 +1,9 @@
+package BAEKJOON_1244_스위치;
+
 import java.io.*;
 import java.util.*;
 
-public class BAEKJOON_1244 {
+public class Solution {
 
 //	public static int changeNum(int a) {
 //		if (a == 1) {

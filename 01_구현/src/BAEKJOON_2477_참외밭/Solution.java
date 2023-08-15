@@ -1,6 +1,8 @@
+package BAEKJOON_2477_참외밭;
+
 import java.util.Scanner;
 
-public class BAEKJOON_2477 {
+public class Solution {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
