@@ -1,6 +1,8 @@
+package BAEKJOON_2941_크로아티아_알파벳;
+
 import java.util.Scanner;
 
-public class BAEKJOON_2941 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String[] croatiaAlphabet = new String[]{"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};

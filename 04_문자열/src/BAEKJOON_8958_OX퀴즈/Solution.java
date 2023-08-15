@@ -1,6 +1,8 @@
+package BAEKJOON_8958_OX퀴즈;
+
 import java.util.Scanner;
 
-public class BAEKJOON_8958 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

@@ -1,6 +1,8 @@
+package BAEKJOON_2810_컵홀더;
+
 import java.util.Scanner;
 
-public class BAEKJOON_2810 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

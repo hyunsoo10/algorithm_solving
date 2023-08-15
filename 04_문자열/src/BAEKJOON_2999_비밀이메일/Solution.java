@@ -1,8 +1,10 @@
+package BAEKJOON_2999_비밀이메일;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class BAEKJOON_2999 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
