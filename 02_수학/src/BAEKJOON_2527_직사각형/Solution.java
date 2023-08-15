@@ -1,6 +1,8 @@
+package BAEKJOON_2527_직사각형;
+
 import java.util.Scanner;
 
-public class BAEKJOON_2527 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

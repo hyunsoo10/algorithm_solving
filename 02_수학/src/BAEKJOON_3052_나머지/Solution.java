@@ -1,8 +1,10 @@
+package BAEKJOON_3052_나머지;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class BAEKJOON_3052 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Map<Integer, Integer> map = new HashMap<>();

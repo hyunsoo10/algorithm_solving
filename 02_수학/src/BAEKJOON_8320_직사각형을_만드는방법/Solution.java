@@ -1,6 +1,8 @@
+package BAEKJOON_8320_직사각형을_만드는방법;
+
 import java.util.Scanner;
 
-public class BAEKJOON_8320 {
+public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
