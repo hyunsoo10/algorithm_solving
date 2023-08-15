@@ -1,6 +1,8 @@
+package BAEKJOON_11659_구간합4;
+
 import java.util.Scanner;
 
-public class BAEKJOON_11659 {
+public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

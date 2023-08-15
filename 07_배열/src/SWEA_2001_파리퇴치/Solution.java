@@ -1,6 +1,8 @@
+package SWEA_2001_파리퇴치;
+
 import java.util.Scanner;
 
-public class SWEA_2001 {
+public class Solution {
 	public static void main(String[] args){
 
 		Scanner sc = new Scanner(System.in);
