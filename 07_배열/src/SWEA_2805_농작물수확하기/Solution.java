@@ -1,6 +1,5 @@
 package SWEA_2805_농작물수확하기;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Solution {
