@@ -1,8 +1,6 @@
 package SWEA_2005_파스칼의삼각형;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
 import java.util.Scanner;
 
 public class Solution {
