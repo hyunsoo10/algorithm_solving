@@ -1,4 +1,4 @@
-package BAEKJOON.BAEKJOON_11660_구간합5;
+package BAEKJOON_11660_구간합5;
 
 import java.io.BufferedReader;
 import java.io.IOException;

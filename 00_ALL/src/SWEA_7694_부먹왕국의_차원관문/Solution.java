@@ -1,4 +1,4 @@
-package SWEA.SWEA_7694_부먹왕국의_차원관문;
+package SWEA_7694_부먹왕국의_차원관문;
 
 import java.util.Arrays;
 import java.util.Scanner;
