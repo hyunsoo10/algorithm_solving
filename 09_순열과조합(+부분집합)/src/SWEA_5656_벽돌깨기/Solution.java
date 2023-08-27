@@ -98,10 +98,10 @@ public class Solution {
 	//벽돌 부순 후에 벽돌 내리기
 	static void organize(int[][] map) {
 		
+		Stack<Integer> stack = new Stack<>();
 		int[][] map3 = new int[H][W];
 		
 		for(int j=0; j<W; j++) {
-			Stack<Integer> stack = new Stack<>();
 			for(int i=0; i<H; i++) {
 				if(map[i][j] != 0)
 					stack.add(map[i][j]);
