@@ -1,4 +1,4 @@
-package BAEKJOON_1918_후위표기식;
+package BOJ_1918_후위표기식;
 
 import java.util.ArrayList;
 import java.util.HashMap;

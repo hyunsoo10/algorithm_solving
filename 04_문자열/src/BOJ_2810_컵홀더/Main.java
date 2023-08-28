@@ -1,4 +1,4 @@
-package BAEKJOON_2810_컵홀더;
+package BOJ_2810_컵홀더;
 
 import java.util.Scanner;
 

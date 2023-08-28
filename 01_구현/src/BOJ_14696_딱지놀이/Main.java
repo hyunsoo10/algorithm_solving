@@ -1,4 +1,4 @@
-package BAEKJOON_14696_딱지놀이;
+package BOJ_14696_딱지놀이;
 
 import java.util.Arrays;
 import java.util.Scanner;

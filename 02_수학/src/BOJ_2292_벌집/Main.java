@@ -1,4 +1,4 @@
-package BAEKJOON_2292_벌집;
+package BOJ_2292_벌집;
 
 import java.util.Scanner;
 

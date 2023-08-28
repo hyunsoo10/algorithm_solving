@@ -1,4 +1,4 @@
-package BAEKJOON_3985_롤케이크;
+package BOJ_3985_롤케이크;
 
 import java.util.Arrays;
 import java.util.HashMap;

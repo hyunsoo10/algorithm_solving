@@ -1,4 +1,4 @@
-package BAEKJOON_2309_일곱_난쟁이;
+package BOJ_2309_일곱_난쟁이;
 
 import java.util.Scanner;
 

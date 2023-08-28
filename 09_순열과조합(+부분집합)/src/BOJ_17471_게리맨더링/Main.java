@@ -1,4 +1,4 @@
-package BAEKJOON_17471_게리맨더링;
+package BOJ_17471_게리맨더링;
 
 import java.util.ArrayList;
 import java.util.Collections;

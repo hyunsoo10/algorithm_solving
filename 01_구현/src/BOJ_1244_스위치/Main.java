@@ -1,4 +1,4 @@
-package BAEKJOON_1244_스위치;
+package BOJ_1244_스위치;
 
 import java.io.*;
 import java.util.*;

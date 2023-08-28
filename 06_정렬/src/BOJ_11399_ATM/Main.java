@@ -1,4 +1,4 @@
-package BAEKJOON_11399_ATM;
+package BOJ_11399_ATM;
 
 import java.util.Scanner;
 
@@ -12,13 +12,12 @@ public class Main {
 			arr[i] = sc.nextInt();
 		}
 		
-		//arr�� ������������ ����
-		//insertion ������ �Ẹ��
+
 		
 		for(int i = 1; i<arr.length; i++) {
-			//���� �񱳰��� �� ������ ������ ��� ���ؼ� ��ġ ����
+
 			for(int j = i; j>0; j--) {
-				//�ڽ� ���� ���� ���� �ִٸ� ��� ��ȯ
+
 				if(arr[j-1] > arr[j]) {
 					int tmp = arr[j-1];
 					arr[j-1] = arr[j];

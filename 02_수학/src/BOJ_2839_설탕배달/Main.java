@@ -1,4 +1,4 @@
-package BAEKJOON_2839_설탕배달;
+package BOJ_2839_설탕배달;
 
 import java.util.Scanner;
 

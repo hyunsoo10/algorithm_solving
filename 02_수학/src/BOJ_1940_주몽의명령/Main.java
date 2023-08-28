@@ -1,4 +1,4 @@
-package BAEKJOON_1940_주몽의명령;
+package BOJ_1940_주몽의명령;
 
 import java.util.Scanner;
 

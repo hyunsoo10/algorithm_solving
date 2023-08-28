@@ -1,4 +1,4 @@
-package BAEKJOON_8958_OX퀴즈;
+package BOJ_8958_OX퀴즈;
 
 import java.util.Scanner;
 

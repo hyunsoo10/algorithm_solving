@@ -1,4 +1,4 @@
-package BAEKJOON_1715_카드정렬하기;
+package BOJ_1715_카드정렬하기;
 
 import java.util.PriorityQueue;
 import java.util.Scanner;

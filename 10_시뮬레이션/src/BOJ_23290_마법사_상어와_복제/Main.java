@@ -1,4 +1,4 @@
-package BAEKJOON_23290_마법사_상어와_복제;
+package BOJ_23290_마법사_상어와_복제;
 
 import java.util.Scanner;
 

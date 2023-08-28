@@ -1,4 +1,4 @@
-package BAEKJOON_8320_직사각형을_만드는방법;
+package BOJ_8320_직사각형을_만드는방법;
 
 import java.util.Scanner;
 

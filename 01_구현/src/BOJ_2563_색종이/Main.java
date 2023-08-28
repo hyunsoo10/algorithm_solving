@@ -1,4 +1,4 @@
-package BAEKJOON_2563_색종이;
+package BOJ_2563_색종이;
 
 import java.util.Scanner;
 

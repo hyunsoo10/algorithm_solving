@@ -1,4 +1,4 @@
-package BAEKJOON_12015_가장_긴_증가하는부분수열2;
+package BOJ_12015_가장_긴_증가하는부분수열2;
 
 import java.util.ArrayList;
 import java.util.List;

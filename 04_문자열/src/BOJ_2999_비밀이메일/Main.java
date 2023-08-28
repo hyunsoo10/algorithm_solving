@@ -1,4 +1,4 @@
-package BAEKJOON_2999_비밀이메일;
+package BOJ_2999_비밀이메일;
 
 import java.util.ArrayList;
 import java.util.List;

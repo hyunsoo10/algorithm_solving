@@ -1,4 +1,4 @@
-package BAEKJOON_2941_크로아티아_알파벳;
+package BOJ_2941_크로아티아_알파벳;
 
 import java.util.Scanner;
 

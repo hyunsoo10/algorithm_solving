@@ -1,4 +1,4 @@
-package BAEKJOON_2018_수들의합5;
+package BOJ_2018_수들의합5;
 
 import java.util.Scanner;
 

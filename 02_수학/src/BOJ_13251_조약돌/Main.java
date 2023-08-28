@@ -1,4 +1,4 @@
-package BAEKJOON_13251_조약돌;
+package BOJ_13251_조약돌;
 
 import java.util.Scanner;
 

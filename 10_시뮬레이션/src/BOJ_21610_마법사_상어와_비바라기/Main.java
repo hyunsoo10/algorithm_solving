@@ -1,4 +1,4 @@
-package BAEKJOON_21610_마법사_상어와_비바라기;
+package BOJ_21610_마법사_상어와_비바라기;
 
 import java.util.Scanner;
 import java.util.Stack;

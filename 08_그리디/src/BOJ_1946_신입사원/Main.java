@@ -1,4 +1,4 @@
-package BAEKJOON_1946_신입사원;
+package BOJ_1946_신입사원;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package BAEKJOON_1789_수들의합;
+package BOJ_1789_수들의합;
 
 import java.util.Scanner;
 

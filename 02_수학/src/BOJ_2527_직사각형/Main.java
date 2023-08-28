@@ -1,4 +1,4 @@
-package BAEKJOON_2527_직사각형;
+package BOJ_2527_직사각형;
 
 import java.util.Scanner;
 

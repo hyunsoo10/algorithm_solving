@@ -1,4 +1,4 @@
-package BAEKJOON_1158_요세푸스;
+package BOJ_1158_요세푸스;
 
 import java.util.ArrayList;
 import java.util.Collections;

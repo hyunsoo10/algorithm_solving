@@ -1,4 +1,4 @@
-package BAEKJOON_3052_나머지;
+package BOJ_3052_나머지;
 
 import java.util.HashMap;
 import java.util.Map;

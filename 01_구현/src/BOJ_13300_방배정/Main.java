@@ -1,4 +1,4 @@
-package BAEKJOON_13300_방배정;
+package BOJ_13300_방배정;
 
 import java.util.HashMap;
 import java.util.Map;

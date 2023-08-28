@@ -1,4 +1,4 @@
-package BAEKJOON_2477_참외밭;
+package BOJ_2477_참외밭;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package BAEKJOON_1592_영식이와_친구들;
+package BOJ_1592_영식이와_친구들;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package BAEKJOON_11659_구간합4;
+package BOJ_11659_구간합4;
 
 import java.util.Scanner;
 
