@@ -1,4 +1,4 @@
-package BAEKJOON_2851_슈퍼_마리오;
+package BOJ_2851_슈퍼_마리오;
 
 import java.util.Scanner;
 

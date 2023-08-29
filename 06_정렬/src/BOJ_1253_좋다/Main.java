@@ -23,7 +23,7 @@ public class Main {
 			
 			int first = 0; //첫번째 포인터
 			int second = N-1; //두번째 포인터
-			
+		
 			while(first < second) {
 				//두 포인터 위치의 합이 target일 때
 				if(num[first]+num[second] == target) {

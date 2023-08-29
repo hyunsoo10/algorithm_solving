@@ -1,4 +1,4 @@
-package BAEKJOON_2798_블랙잭;
+package BOJ_2798_블랙잭;
 
 import java.util.Scanner;
 
