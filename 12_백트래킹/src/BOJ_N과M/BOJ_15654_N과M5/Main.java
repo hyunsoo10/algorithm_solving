@@ -1,10 +1,9 @@
-package BOJ_N과M.BOJ_15650_N과M2;
+package BOJ_N과M.BOJ_15654_N과M5;
 
 import java.util.Scanner;
 
 public class Main {
 	static int[] arr,sel;
-	static boolean[] visited;
 	static int N, M;
 	static StringBuilder sb = new StringBuilder();
 	public static void main(String[] args) {
@@ -14,10 +13,9 @@ public class Main {
 		
 		arr = new int[N];
 		sel = new int[M];
-		visited = new boolean[N];
 		
-		for(int i=0, num=1; i<N; i++) {
-			arr[i] = num++;
+		for(int i=0; i<N; i++) {
+			arr[i] = sc.nextInt();
 		}
 		
 		dfs(0, 0);
@@ -34,13 +32,10 @@ public class Main {
 		
 		//전체 싸이클은 N만큼 돌아야 됌
 		for(int i=idx; i<N; i++) {
-			if(!visited[i]) {
-				sel[sidx] = arr[i];
-				dfs(sidx+1, idx);
-				visited[i] = false;
-				idx++;
-			}
+			sel[sidx] = arr[i];
+			dfs(sidx+1, idx);
 		}
 		
 	}
 }
+

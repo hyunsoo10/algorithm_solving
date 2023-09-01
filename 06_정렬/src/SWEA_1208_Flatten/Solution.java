@@ -1,11 +1,12 @@
 package SWEA_1208_Flatten;
 
+
 import java.util.Scanner;
 
 public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		int T = 10; //10개 테스트 케이스 고정
 		
 		for(int tc = 1; tc<=T; tc++) {
