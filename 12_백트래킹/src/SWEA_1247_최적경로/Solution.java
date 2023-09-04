@@ -26,8 +26,10 @@ public class Solution {
 			N = sc.nextInt();
 			comp = new Pos(sc.nextInt(), sc.nextInt());//회사 좌표
 			home = new Pos(sc.nextInt(), sc.nextInt());//집 좌표
+			custPos = new Pos[N];
+
 			ans = 987654321;
-			
+
 			for(int i=0; i<N; i++) {
 				custPos[i] = new Pos(sc.nextInt(), sc.nextInt());
 			} //입력 및 초기화 완료
@@ -53,7 +55,7 @@ public class Solution {
 			//고객 체크
 			//방문하지 않은 경우
 			if((sel & (1<<i)) == 0) {
-				perm(idx+1, sel|(1<<i),Math.abs(curr.x -custPos[i].x) + Math.abs(curr.y - custPos[i].y), custPos[i]);
+				perm(idx+1, sel|(1<<i), dist + Math.abs(curr.x -custPos[i].x) + Math.abs(curr.y - custPos[i].y), custPos[i]);
 			}
 		}
 	}
