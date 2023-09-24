@@ -1,6 +1,7 @@
 package BOJ_2468_안전영역;
 
-import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
@@ -37,7 +38,7 @@ public class Main {
 				for(int c=0; c<N; c++) {
 					//방문하지 않고 limit보다 높은 높이에서만 dfs 돌린다
 					if(!visited[r][c] && map[r][c] > i) {
-						dfs(r, c, i);					
+						bfs(r, c, i);					
 						cnt++;
 					}
 				}
@@ -60,6 +61,25 @@ public class Main {
 				dfs(nr, nc, limit);
 			}
 		}
+	}
+	//bfs
+	static void bfs(int row, int col, int limit) {
+		Queue<int[]> queue = new LinkedList<>();
+		queue.add(new int[] {row, col});//시작 좌표 큐에 넣기
 		
+		//큐가 빌 때 까지
+		while(!queue.isEmpty()) {
+			int[] tmp = queue.poll();
+			
+			//꺼낸 좌표 4방향 델타 탐색
+			for(int i=0; i<4; i++) {
+				int nr = tmp[0]+ dr[i];
+				int nc = tmp[1]+ dc[i];
+				if(nr >=0 && nr<N && nc>=0 && nc<N && !visited[nr][nc]&&map[nr][nc] > limit) {
+					visited[nr][nc] = true;
+					queue.add(new int[] {nr, nc});
+				}
+			}
+		}
 	}
 }
