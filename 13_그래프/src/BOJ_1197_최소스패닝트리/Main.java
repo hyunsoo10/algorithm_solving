@@ -60,11 +60,12 @@ public class Main {
 		System.out.println(ans);
 		
 	}
-	
+	//대표자 찾기
 	static int findset(int x) {
 		if(p[x] != x) return p[x] = findset(p[x]);
 		return p[x];
 	}
+	//합치기
 	static void union(int px, int py) {
 		p[py] = px;
 	}
