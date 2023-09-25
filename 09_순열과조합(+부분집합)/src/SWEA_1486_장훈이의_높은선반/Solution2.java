@@ -28,7 +28,7 @@ public class Solution2 {
 			minB = Integer.MAX_VALUE; // 부분집합의 원소의 합이 B 이상인 최소값
 			subset(0, 0);
 			
-			sb.append("#").append(testCase).append(" ").append(0).append("\n");
+			sb.append("#").append(testCase).append(" ").append(minB-B).append("\n");
 		}
 		System.out.println(sb.toString());
 	}
@@ -36,6 +36,7 @@ public class Solution2 {
 	/**직원들 키로 부분집합 구해서, 원소의 합이 B 이상인 최소값 구하는 메서드
 	 * index : 각 단계 depth, sumH : 지금까지 선택된 직원들의 키의 합*/
 	static void subset(int index, int sumH) {
+		if(sumH > minB) return;
 		if(index == N) { //종료 파트
 			if(sumH >= B && sumH < minB) {
 				minB = sumH;
