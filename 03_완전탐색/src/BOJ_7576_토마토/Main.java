@@ -17,6 +17,7 @@ public class Main {
 		//N*M의 상자 크기 2 ≤ M,N ≤ 1,000
 		M = sc.nextInt();
 		N = sc.nextInt();
+		int H = sc.nextInt();
 		
 		//map과 방문 배열 초기화
 		map = new int[N][M];
@@ -36,7 +37,7 @@ public class Main {
 		}
 	
 		bfs();
-		System.out.println(ans);
+		System.out.println(ans); 
 		
 	}
 	
