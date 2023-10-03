@@ -36,7 +36,9 @@ public class Main {
 		}
 		eatable=1;
 		while(true) {
+			//bfs를 빠져나왔는데 eatable이 0이면 먹을수 있는 물고기가 없는 것임
 			if(eatable == 0) break;
+			//물고기 개수 다시 파악
 			eatable = 0;
 			//상어위치와 물고기 개수 파악
 			for(int i=0; i<N; i++) {
