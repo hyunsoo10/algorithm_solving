@@ -20,28 +20,35 @@ public class Main {
 		
 		Arrays.sort(nums);
 		
+		StringBuilder sb = new StringBuilder();
 		int M = Integer.parseInt(br.readLine());
-		StringBuilder sb =new StringBuilder();
+		st = new StringTokenizer(br.readLine(), " ");
+		
 		for(int i=0; i<M; i++) {
 			int min = 0;
 			int max = nums.length-1;
-			st = new StringTokenizer(br.readLine(), " ");
+			boolean flag = false;
+			
 			int key = Integer.parseInt(st.nextToken());
-			while(min < max) {
+			
+			while(min <= max) {
 				int mid = (min+max)/2;
 				
 				//key가 mid보다 크다면
 				if(key > nums[mid]) {
 					min = mid+1;
 				}else if(key < nums[mid]) {
-					max = mid;
+					max = mid-1;
 				}else {
-					
+					flag = true;
+					break;
 				}
 			}
+			if(flag) sb.append("1 ");
+			else sb.append("0 ");
 			
 		}
 		
-		System.out.println(sb.toString());
+		System.out.println(sb);
 	}
 }
