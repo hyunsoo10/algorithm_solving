@@ -32,10 +32,12 @@ public class Main {
 				int nr = pos[0] + dr[d];
 				int nc = pos[1] + dc[d];
 				
-				if(nr>=0 && nr<N && nc>=0 && nc<N && visited[nr][nc]==0) {
-					visited[nr][nc] = visited[pos[0]][pos[1]]+1;
-					if(nr == startR && nc == endC) break;
-					queue.add(new int[] {nr, nc});
+				if(nr>=0 && nr<N && nc>=0 && nc<N) {
+					int tmp = visited[pos[0]][pos[1]]+1;
+					if(visited[nr][nc]==0 || visited[nr][nc] > tmp) {
+						visited[nr][nc] = tmp;
+						queue.add(new int[] {nr, nc});
+					}
 					
 				}
 			}
