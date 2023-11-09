@@ -34,6 +34,7 @@ public class Main {
 			}else {
 				//나머지가 0이면 몫 이 부모 노드임
 				List<Long> listX = new ArrayList<>();
+				listX.add(x);
 				while(true) {
 					if(x-1 == 0) break;
 					long modX = (x-1) % K;
@@ -42,6 +43,7 @@ public class Main {
 					listX.add(x);
 				}
 				List<Long> listY = new ArrayList<>();
+				listY.add(y);
 				while(true) {
 					if(y-1 == 0) break;
 					long modY = (y-1) % K;
@@ -61,7 +63,7 @@ public class Main {
 				}
 				//공통조상의 깊이
 				if(depth == -1) depth = 0;
-				System.out.println((listX.size()+listY.size())-(depth*2));
+				System.out.println((listX.size()-1+listY.size()-1)-(depth*2));
 			}
 
 		}
