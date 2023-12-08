@@ -28,17 +28,30 @@ public class Main {
 		int min = 1; //집들의 거리는 1이기 때문에 최소값은 1
 		int max = arr[N-1] - arr[0] + 1; //최대값은 양 끝의 집간 거리 +1로 설정
 		
-		while(min < max) {
+		int ans = 0;
+		while(min <= max) {
 			int mid = (min + max) / 2;
 			
 			//거리가 mid일 때 설치할 수 있는 공유기의 개수가 C보다 적다면 mid를 늘려야 함
 			if(install(mid) < C) {
-				max = mid;
+				max = mid-1;
 			}else {
+				ans = mid;
 				min = mid+1;
 			}
 		}
-		System.out.println(min-1);
+		System.out.println(ans);
+//		while(min < max) {
+//			int mid = (min + max) / 2;
+//			
+//			//거리가 mid일 때 설치할 수 있는 공유기의 개수가 C보다 적다면 mid를 늘려야 함
+//			if(install(mid) < C) {
+//				max = mid;
+//			}else {
+//				min = mid+1;
+//			}
+//		}
+//		System.out.println(min-1);
 		
 		
 	}

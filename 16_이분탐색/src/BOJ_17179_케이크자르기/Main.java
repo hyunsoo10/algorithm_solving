@@ -29,7 +29,8 @@ public class Main {
 				int mid = (left+right)/2;
 				if(check(mid) > piece) {
 					left = mid+1;
-					ans = Math.max(ans, mid);
+//					ans = Math.max(ans, mid);
+					ans = mid;
 				}else {
 					right = mid-1;
 				}
