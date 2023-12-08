@@ -37,7 +37,6 @@ public class Main {
         	}// 이분탐색 종료
         	dp[right] = arr[i];
         }// end else
-   
       }// end for
 
       System.out.println(idx);
