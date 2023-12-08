@@ -50,14 +50,14 @@ public class Main {
 			adjArr[B].add(new Node(A, m));
 		}
 
-//		PriorityQueue<Node> pq = new PriorityQueue(new Comparator<Node>() {
-//			@Override
-//			public int compare(Node o1, Node o2) {
-//				return Long.compare(o1.t, o2.t);
-//			}
-//		});
+		PriorityQueue<Node> pq = new PriorityQueue(new Comparator<Node>() {
+			@Override
+			public int compare(Node o1, Node o2) {
+				return Long.compare(o1.t, o2.t);
+			}
+		});
 		
-		PriorityQueue<Node> pq = new PriorityQueue<Node>();
+//		PriorityQueue<Node> pq = new PriorityQueue<Node>();
 		//초기 값 넣어주기
 		pq.offer(new Node(1, 0));
 
