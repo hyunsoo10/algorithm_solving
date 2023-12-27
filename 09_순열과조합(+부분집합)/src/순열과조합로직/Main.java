@@ -31,7 +31,19 @@ public class Main {
 		System.out.println("----중복 조합-----");
 		duplicateComb(0, 0, R);
 		
+		
+		System.out.println("----부분 집합(재귀)-----");
+		visited = new boolean[N];
+		powerset(0);
+		
+		System.out.println("----부분 집합(비트 연산자)-----");
+		arr = new int[] { 1, 2, 3, 4, 5 };
+		powersetWithBit();
+		
+		
 	}
+
+
 
 	// 순열
 	// cnt: 현재까지 뽑은 횟수, r: 총 뽑아야 하는 횟수
@@ -97,4 +109,40 @@ public class Main {
 			duplicateComb(cnt+1, i, r);
 		}
 	}
+	
+	//부분집합(재귀 활용)
+	//idx : arr의 인덱스
+	private static void powerset(int idx) {
+		//모든 인덱스를 확인한 경우
+		if(idx == N) {
+			for(int i=0; i<N; i++) {
+				if(visited[i])
+					System.out.print(arr[i]+ " ");
+			}
+			System.out.println();
+			return;
+		}
+		
+		//현재 index를 뽑고 다음 인덱스로
+		visited[idx] = true;
+		powerset(idx+1);
+		//현재 index를 뽑지 않고 다음 인덱스로
+		visited[idx] = false;
+		powerset(idx+1);
+	}
+	
+	//부분집합(비트연산자)
+	private static void powersetWithBit() {
+		
+		//1을 N번 왼쪽으로 밀고, 거기에 -1을 하면 N개의 비트가 1로 채워진다
+		for(int i=1; i< (1<<N); i++) {
+			//N개의 비트가 1인지 여부를 체크
+			for(int j=0; j<N; j++) {
+				//i에서 1이 채워진 비트를 출력(부분집합)
+				if((i & (1<<j)) > 0) System.out.print(arr[j]+" ");
+			}
+			System.out.println();
+		}
+	}
+
 }
