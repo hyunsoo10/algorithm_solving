@@ -40,10 +40,7 @@ public class Main {
 			
 			sb.append(temp[0] + " " + names[temp[1]] + "\n");
 		}
-		
 		System.out.println(sb);
-		
-		
 		br.close();
 	}
 }
